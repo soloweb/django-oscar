@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
+# Miyuki Kanda <info@axispoint.co.jp>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: django-oscar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-05 16:34+0100\n"
-"PO-Revision-Date: 2013-02-18 17:06+0000\n"
-"Last-Translator: codeinthehole <david.winterbottom@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ja\n"
+"PO-Revision-Date: 2013-04-12 03:30+0000\n"
+"Last-Translator: MiyukiK <info@axispoint.co.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/django-oscar/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: defaults.py:84 templates/oscar/dashboard/index.html:16
@@ -123,7 +124,7 @@ msgstr "カスタマー"
 
 #: defaults.py:129
 msgid "Customer management"
-msgstr ""
+msgstr "顧客管理"
 
 #: defaults.py:133
 msgid "Stock alert requests"
@@ -702,8 +703,8 @@ msgstr ""
 #: apps/basket/abstract_models.py:105
 #, python-format
 msgid ""
-"Due to technical limitations we are not able to ship more than %(threshold)d "
-"items in one order."
+"Due to technical limitations we are not able to ship more than %(threshold)d"
+" items in one order."
 msgstr ""
 
 #: apps/basket/abstract_models.py:461
@@ -815,8 +816,8 @@ msgstr ""
 #: apps/basket/forms.py:169
 #, python-format
 msgid ""
-"Due to technical limitations we are not able to ship more than %(threshold)d "
-"items in one order. Your basket currently has %(basket)d items."
+"Due to technical limitations we are not able to ship more than %(threshold)d"
+" items in one order. Your basket currently has %(basket)d items."
 msgstr ""
 
 #: apps/basket/forms.py:193
@@ -1947,18 +1948,17 @@ msgid "All alerts"
 msgstr "全アラート"
 
 #: apps/dashboard/catalogue/views.py:354
-#, fuzzy
 msgid "Add a new category"
-msgstr "カテゴリ編集"
+msgstr ""
 
 #: apps/dashboard/catalogue/views.py:358
 msgid "Category created successfully"
 msgstr ""
 
 #: apps/dashboard/catalogue/views.py:369
-#, fuzzy, python-format
+#, python-format
 msgid "Update category '%s'"
-msgstr "'%s'の更新が完了しました"
+msgstr ""
 
 #: apps/dashboard/catalogue/views.py:373
 msgid "Category updated successfully"
@@ -2366,7 +2366,8 @@ msgstr ""
 #: apps/dashboard/orders/views.py:408
 #, python-format
 msgid ""
-"Status of line #%(line_id)d changed from '%(old_status)s' to '%(new_status)s'"
+"Status of line #%(line_id)d changed from '%(old_status)s' to "
+"'%(new_status)s'"
 msgstr ""
 
 #: apps/dashboard/orders/views.py:425 apps/dashboard/orders/views.py:458
@@ -3283,8 +3284,8 @@ msgstr ""
 #: apps/order/abstract_models.py:76
 #, python-format
 msgid ""
-"'%(new_status)s' is not a valid status for order %(number)s (current status: "
-"'%(status)s')"
+"'%(new_status)s' is not a valid status for order %(number)s (current status:"
+" '%(status)s')"
 msgstr ""
 
 #: apps/order/abstract_models.py:187
@@ -3557,7 +3558,8 @@ msgid "Is Required"
 msgstr ""
 
 #: apps/order/abstract_models.py:727
-msgid "This event must be passed before the next shipping event can take place"
+msgid ""
+"This event must be passed before the next shipping event can take place"
 msgstr ""
 
 #: apps/order/abstract_models.py:738
@@ -3977,7 +3979,8 @@ msgstr ""
 
 #: apps/promotions/models.py:145
 msgid ""
-"This can be used to have different types of HTML blocks (eg different widths)"
+"This can be used to have different types of HTML blocks (eg different "
+"widths)"
 msgstr ""
 
 #: apps/promotions/models.py:150 apps/promotions/models.py:151
@@ -4167,10 +4170,8 @@ msgstr ""
 #: apps/shipping/models.py:146
 msgid ""
 "Enter upper limit of this\n"
-"                                                weight band in Kg, the "
-"lower\n"
-"                                                limit will be determine by "
-"the\n"
+"                                                weight band in Kg, the lower\n"
+"                                                limit will be determine by the\n"
 "                                                other weight bands"
 msgstr ""
 
@@ -4344,12 +4345,12 @@ msgid "This page is only available to users who aren't logged in."
 msgstr ""
 
 #: templates/oscar/basket/messages/addition.html:4
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "    <strong>%(title)s</strong> has been added to your basket.\n"
 "    "
-msgstr "'%(title)s'がカートに追加されました"
+msgstr ""
 
 #: templates/oscar/basket/messages/addition.html:8
 #, python-format
@@ -4361,11 +4362,11 @@ msgid ""
 msgstr ""
 
 #: templates/oscar/basket/messages/line_restored.html:3
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "\n"
 "<strong>%(title)s</strong> has been moved back to your basket.\n"
-msgstr "'%(title)s'がカートに追加されました"
+msgstr ""
 
 #: templates/oscar/basket/messages/line_saved.html:3
 #, python-format
@@ -4387,9 +4388,8 @@ msgid ""
 msgstr ""
 
 #: templates/oscar/basket/messages/new_total.html:16
-#, fuzzy
 msgid "View basket"
-msgstr "カートを見る"
+msgstr ""
 
 #: templates/oscar/basket/messages/new_total.html:17
 msgid "Checkout now"
@@ -4423,8 +4423,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"\t<div class=\"warning\">%(message)s to qualify for the <a href=\"%(url)s\">"
-"%(offer_name)s</a> special offer</div>\n"
+"\t<div class=\"warning\">%(message)s to qualify for the <a href=\"%(url)s\">%(offer_name)s</a> special offer</div>\n"
 "    "
 msgstr ""
 
@@ -4614,9 +4613,8 @@ msgstr ""
 
 #: templates/oscar/basket/partials/basket_totals.html:114
 #: templates/oscar/checkout/thank_you.html:173
-#, fuzzy
 msgid "Post order actions"
-msgstr "全注文件数"
+msgstr ""
 
 #: templates/oscar/basket/partials/basket_totals.html:114
 msgid "These will be applied once your order is placed."
@@ -4829,9 +4827,8 @@ msgid "From %(price)s"
 msgstr ""
 
 #: templates/oscar/catalogue/reviews/review_detail.html:45
-#, fuzzy
 msgid "Customer review"
-msgstr "カスタマー"
+msgstr ""
 
 #: templates/oscar/catalogue/reviews/review_form.html:8
 msgid "Leave a product review"
@@ -4873,9 +4870,8 @@ msgid "or"
 msgstr "または"
 
 #: templates/oscar/catalogue/reviews/review_list.html:41
-#, fuzzy
 msgid "Customer reviews"
-msgstr "カスタマー"
+msgstr ""
 
 #: templates/oscar/catalogue/reviews/review_list.html:46
 msgid "Sort by:"
@@ -5376,9 +5372,8 @@ msgstr ""
 
 #: templates/oscar/customer/order.html:133
 #: templates/oscar/dashboard/orders/order_detail.html:194
-#, fuzzy
 msgid "Shipping total"
-msgstr "メモ:"
+msgstr ""
 
 #: templates/oscar/customer/order.html:154
 msgid "Address:"
@@ -5524,8 +5519,7 @@ msgstr ""
 #: templates/oscar/customer/alerts/emails/alert_body.txt:5
 msgid ""
 "\n"
-"Beware that the amount of items in stock is limited. Be quick or someone "
-"might get there first.\n"
+"Beware that the amount of items in stock is limited. Be quick or someone might get there first.\n"
 msgstr ""
 
 #: templates/oscar/customer/alerts/emails/alert_body.txt:7
@@ -5569,8 +5563,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"    You're receiving this email because your email address has been changed "
-"to <strong>%(email)s</strong>.\n"
+"    You're receiving this email because your email address has been changed to <strong>%(email)s</strong>.\n"
 "    "
 msgstr ""
 
@@ -5583,7 +5576,8 @@ msgstr ""
 
 #: templates/oscar/customer/emails/commtype_email_changed_body.html:14
 #: templates/oscar/customer/emails/commtype_email_changed_body.txt:10
-msgid "If it was you who changed the email address, you can ignore this email."
+msgid ""
+"If it was you who changed the email address, you can ignore this email."
 msgstr ""
 
 #: templates/oscar/customer/emails/commtype_email_changed_body.html:16
@@ -5609,8 +5603,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"You're receiving this email because your email address has been changed to "
-"%(email)s.\n"
+"You're receiving this email because your email address has been changed to %(email)s.\n"
 msgstr ""
 
 #: templates/oscar/customer/emails/commtype_email_changed_subject.txt:1
@@ -5664,8 +5657,8 @@ msgstr ""
 #: templates/oscar/customer/emails/commtype_order_placed_body.html:24
 #, python-format
 msgid ""
-"You can view the status of this order by clicking <a href=\"%(status_url)s\" "
-"title=\"order status\">here</a>"
+"You can view the status of this order by clicking <a href=\"%(status_url)s\""
+" title=\"order status\">here</a>"
 msgstr ""
 
 #: templates/oscar/customer/emails/commtype_order_placed_body.html:27
@@ -5698,8 +5691,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"    You're receiving this e-mail because your password has been changed at "
-"%(name)s.\n"
+"    You're receiving this e-mail because your password has been changed at %(name)s.\n"
 "    "
 msgstr ""
 
@@ -5718,8 +5710,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"You're receiving this email because your password has been changed at "
-"%(name)s.\n"
+"You're receiving this email because your password has been changed at %(name)s.\n"
 msgstr ""
 
 #: templates/oscar/customer/emails/commtype_password_changed_subject.txt:1
@@ -5731,8 +5722,8 @@ msgstr ""
 #: templates/oscar/customer/emails/commtype_password_reset_body.txt:2
 #, python-format
 msgid ""
-"You're receiving this e-mail because you requested a password reset for your "
-"user account at %(name)s."
+"You're receiving this e-mail because you requested a password reset for your"
+" user account at %(name)s."
 msgstr ""
 
 #: templates/oscar/customer/emails/commtype_password_reset_body.html:6
@@ -5906,9 +5897,8 @@ msgid "Category management"
 msgstr "カテゴリマネジメント"
 
 #: templates/oscar/dashboard/catalogue/category_list.html:27
-#, fuzzy
 msgid "Create new category"
-msgstr "新商品追加"
+msgstr ""
 
 #: templates/oscar/dashboard/catalogue/category_list.html:30
 msgid "New category"
@@ -6009,9 +5999,8 @@ msgstr "定価（税込）"
 
 #: templates/oscar/dashboard/catalogue/product_list.html:77
 #: templates/oscar/dashboard/catalogue/product_update.html:224
-#, fuzzy
 msgid "Children"
-msgstr "子カテゴリ編集"
+msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_list.html:119
 #: templates/oscar/dashboard/catalogue/stockalert_list.html:35
@@ -6024,9 +6013,8 @@ msgid "Actions"
 msgstr "アクション"
 
 #: templates/oscar/dashboard/catalogue/product_update.html:37
-#, fuzzy
 msgid "Sections"
-msgstr "アクション"
+msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:41
 #: templates/oscar/dashboard/catalogue/product_update.html:62
@@ -6039,29 +6027,24 @@ msgid "Product details"
 msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:47
-#, fuzzy
 msgid "Product variants"
-msgstr "商品"
+msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:50
-#, fuzzy
 msgid "Product attributes"
-msgstr "商品"
+msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:51
-#, fuzzy
 msgid "Product category"
-msgstr "カテゴリ編集"
+msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:52
-#, fuzzy
 msgid "Product images"
-msgstr "商品"
+msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:53
-#, fuzzy
 msgid "Product stock"
-msgstr "商品"
+msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:81
 msgid "Fulfilment partner"
@@ -6092,9 +6075,8 @@ msgid "Variants"
 msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:243
-#, fuzzy
 msgid "Product class:"
-msgstr "商品"
+msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:246
 msgid "Attribute name"
@@ -6113,9 +6095,8 @@ msgid "Stock and price information"
 msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:352
-#, fuzzy
 msgid "Recommended products"
-msgstr "新商品追加"
+msgstr ""
 
 #: templates/oscar/dashboard/catalogue/product_update.html:374
 msgid "Save and continue editing"
@@ -6706,8 +6687,9 @@ msgstr ""
 #: templates/oscar/dashboard/promotions/delete_pagepromotion.html:32
 #, python-format
 msgid ""
-"Remove %(object.content_object.type)s content block <strong>%(object.name)s</"
-"strong> from page <strong>%(object.page_url)s</strong> - are you sure?"
+"Remove %(object.content_object.type)s content block "
+"<strong>%(object.name)s</strong> from page "
+"<strong>%(object.page_url)s</strong> - are you sure?"
 msgstr ""
 
 #: templates/oscar/dashboard/promotions/form.html:47
@@ -6925,9 +6907,8 @@ msgid ""
 msgstr ""
 
 #: templates/oscar/dashboard/ranges/messages/range_saved.html:7
-#, fuzzy
 msgid "Edit included products"
-msgstr "新商品追加"
+msgstr ""
 
 #: templates/oscar/dashboard/reports/index.html:16
 msgid "Reporting Dashboard"
@@ -7420,6 +7401,3 @@ msgstr ""
 #, python-format
 msgid "You need to select some %ss"
 msgstr ""
-
-#~ msgid "Catalogue management"
-#~ msgstr "カタログ管理"
