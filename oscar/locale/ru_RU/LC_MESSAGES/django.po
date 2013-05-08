@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: django-oscar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-05 16:34+0100\n"
-"PO-Revision-Date: 2013-04-24 09:11+0000\n"
+"PO-Revision-Date: 2013-05-03 13:51+0000\n"
 "Last-Translator: Ignat Kudryavtsev <ignat@ignat.tel>\n"
 "Language-Team: Russian (Russia) (http://www.transifex.com/projects/p/django-oscar/language/ru_RU/)\n"
 "MIME-Version: 1.0\n"
@@ -1409,7 +1409,7 @@ msgstr "Сообщение"
 #: models/fields.py:18 templates/oscar/dashboard/pages/index.html:59
 #: templates/oscar/dashboard/promotions/pagepromotion_list.html:46
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: apps/catalogue/reviews/abstract_models.py:52
 msgid "Requires moderation"
@@ -3434,7 +3434,7 @@ msgstr "Строка Заказа"
 
 #: apps/order/abstract_models.py:522
 msgid "<missing product>"
-msgstr ""
+msgstr "<отсутствующий товар>"
 
 #: apps/order/abstract_models.py:523
 #, python-format
@@ -3839,11 +3839,11 @@ msgstr "Это 3 или 5 цифры номера безопасности на 
 
 #: apps/payment/forms.py:200
 msgid "Valid from"
-msgstr ""
+msgstr "Действительна с"
 
 #: apps/payment/forms.py:201
 msgid "Valid to"
-msgstr ""
+msgstr "Действительна по"
 
 #: apps/payment/models.py:19 apps/payment/models.py:85
 #: templates/oscar/dashboard/orders/order_detail.html:403
@@ -3952,7 +3952,7 @@ msgstr ""
 #: apps/promotions/models.py:46
 #: templates/oscar/dashboard/promotions/form.html:51
 msgid "Page URL"
-msgstr ""
+msgstr "URL страницы"
 
 #: apps/promotions/models.py:55
 msgid "Page Promotion"
@@ -5882,7 +5882,7 @@ msgstr "Предложения, купоны, акции"
 
 #: templates/oscar/dashboard/layout.html:47
 msgid "Welcome"
-msgstr "Добро пожаловать"
+msgstr "Добро пожаловать, "
 
 #: templates/oscar/dashboard/layout.html:48
 msgid "Return to site"

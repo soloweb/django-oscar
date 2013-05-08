@@ -3,17 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Arturo Bermejo <abermejo20@gmail.com>, 2013.
-# Juan Saavedra <jsaavedra@trea.uy>, 2013.
-# Luciano <lferrari@trea.uy>, 2013.
-# raimon <raimonesteve@gmail.com>, 2013.
+# abermejo <abermejo20@gmail.com>, 2013
+# paqueteuy <jsaavedra@trea.uy>, 2013
+# lferari <lferrari@trea.uy>, 2013
+# raimonesteve <raimonesteve@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: django-oscar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-05 16:34+0100\n"
-"PO-Revision-Date: 2013-04-12 12:59+0000\n"
-"Last-Translator: raimonesteve <raimonesteve@gmail.com>\n"
+"PO-Revision-Date: 2013-05-06 16:02+0000\n"
+"Last-Translator: abermejo <abermejo20@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/django-oscar/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1656,23 +1656,23 @@ msgstr ""
 
 #: apps/customer/abstract_models.py:63
 msgid "HTML template"
-msgstr ""
+msgstr "Plantilla HTML"
 
 #: apps/customer/abstract_models.py:66
 msgid "SMS Template"
-msgstr ""
+msgstr "Plantilla SMS"
 
 #: apps/customer/abstract_models.py:67
 msgid "SMS template"
-msgstr ""
+msgstr "plantilla SMS"
 
 #: apps/customer/abstract_models.py:82
 msgid "Communication event type"
-msgstr ""
+msgstr "Tipo de evento de comunicación"
 
 #: apps/customer/abstract_models.py:83
 msgid "Communication event types"
-msgstr ""
+msgstr "Tipos de evento de comunicación"
 
 #: apps/customer/abstract_models.py:194
 msgid "Key"
@@ -1788,11 +1788,11 @@ msgstr "Ingrese su email "
 #: apps/customer/forms.py:334
 #, python-format
 msgid "There is already an active stock alert for %s"
-msgstr ""
+msgstr "Ya existe una alerta de stock activa para %s"
 
 #: apps/customer/forms.py:344
 msgid "You already have an active alert for this product"
-msgstr ""
+msgstr "Tu ya tienes una alerta de stock activa para este producto"
 
 #: apps/customer/views.py:154
 msgid "No alert found"
@@ -1975,7 +1975,7 @@ msgstr ""
 
 #: apps/dashboard/communications/forms.py:14
 msgid "Email subject template"
-msgstr ""
+msgstr "Plantilla de asunto de correo electrónico"
 
 #: apps/dashboard/communications/forms.py:16
 msgid "Email body text template"
@@ -2021,7 +2021,7 @@ msgstr "Email guardado "
 #: apps/dashboard/communications/views.py:87
 #, python-format
 msgid "A preview email has been sent to %s"
-msgstr ""
+msgstr "Una vista previa del email ha sido enviado a %s"
 
 #: apps/dashboard/offers/forms.py:23 apps/dashboard/vouchers/forms.py:17
 #: apps/offer/models.py:92 apps/voucher/abstract_models.py:38
@@ -2116,7 +2116,7 @@ msgstr "Pedidos con similitud '%s'"
 #: apps/dashboard/offers/views.py:95
 #, python-format
 msgid "%s step not complete"
-msgstr ""
+msgstr "%s paso sin completar"
 
 #: apps/dashboard/offers/views.py:217
 msgid "Name and description"
@@ -2240,7 +2240,7 @@ msgstr "Pedidos sin un status de pedido "
 #: apps/dashboard/orders/views.py:120
 #, python-format
 msgid "Orders with status '%s'"
-msgstr ""
+msgstr "Pedido con status '%s'"
 
 #: apps/dashboard/orders/views.py:137
 #, python-format
@@ -2251,12 +2251,12 @@ msgstr "Pedidos con un numero que comienza con \"%s\""
 #: apps/dashboard/users/views.py:131
 #, python-format
 msgid " with customer name matching '%s'"
-msgstr ""
+msgstr "con nombre de cliente coincidiendo con '%s'"
 
 #: apps/dashboard/orders/views.py:170
 #, python-format
 msgid " including an item with ID '%s'"
-msgstr ""
+msgstr "incluyendo un item con ID '%s'"
 
 #: apps/dashboard/orders/views.py:176
 #, python-format
@@ -2321,7 +2321,7 @@ msgstr "Cobrar a nombre"
 
 #: apps/dashboard/orders/views.py:316 views/generic.py:66
 msgid "Invalid action"
-msgstr ""
+msgstr "Acción invalida"
 
 #: apps/dashboard/orders/views.py:332
 msgid "You must select some lines to act on"
@@ -2329,7 +2329,7 @@ msgstr "Debes seleccionar algunas lineas en donde actuar "
 
 #: apps/dashboard/orders/views.py:336
 msgid "No valid action submitted"
-msgstr ""
+msgstr "Acción no válida enviada"
 
 #: apps/dashboard/orders/views.py:347
 msgid "Note saved"
