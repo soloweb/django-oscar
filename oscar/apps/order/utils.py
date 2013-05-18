@@ -79,8 +79,9 @@ class OrderCreator(object):
             # Record offer application results
             if application['result'].affects_shipping:
                 # If a shipping offer, we need to grab the actual discount off
-                # the shipping method instance
-                application['discount'] = shipping_method.get_discount()['discount']
+                # the shipping method instance, which should be wrapped in an
+                # OfferDiscount instance.
+                application['discount'] = shipping_method.discount
             self.create_discount_model(order, application)
             self.record_discount(application)
 
@@ -174,7 +175,9 @@ class OrderCreator(object):
         return order_line
 
     def update_stock_records(self, line):
-        line.product.stockrecord.allocate(line.quantity)
+        product = line.product
+        if product.product_class.track_stock:
+            line.product.stockrecord.allocate(line.quantity)
 
     def create_additional_line_models(self, order, order_line, basket_line):
         """
